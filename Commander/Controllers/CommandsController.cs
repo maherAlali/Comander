@@ -20,7 +20,7 @@ namespace Commander.Controllers
             _repository = repository;
             _mapper = mapper;
         }
-        //private readonly MockCommanderRepo _repository = new MockCommanderRepo();   
+        
         //Get api/Commands
         [HttpGet]
         public ActionResult <IEnumerable<CommandReadDto>> GetAllCommands()
